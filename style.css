@@ -1,0 +1,50 @@
+/*HEADER*/
+*{
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+}
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+/* Header*/
+.about-img{
+    margin-left: -100px;
+    right: -60px;
+
+}
+.btn{
+    padding: 10px 25px;
+    border-radius: 100px;
+
+}
+
+.btn-white{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+
+}
+
+.btn-blue{
+    border: 2.4px solid #ffffff;
+    color: #ffffff;
+}
+.hero-text{
+    margin-top: 150px;
+}
+.typed-cursos{
+    font-size: 45px;
+    color: #ffffff;
+}
+.position-absolute{
+    font-weight: 700;
+}
