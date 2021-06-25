@@ -1,6 +1,14 @@
 (function ($) {
 	"use strict"
 
+
+//Navbar on scroll
+$(window).scroll(function (){
+	if ($(this).scrollTop()> 100){
+		$('.navbar').fadeIn('slow').css('display', 'flex')
+	}
+});
+
 	// Type
 	if ($('.typed-text-output').length == 1){
 		var typed_strings = $('.typed-text').text();
